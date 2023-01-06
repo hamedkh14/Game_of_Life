@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game of Life</title>
+</head>
+<body>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #aaaaaa;
+    }
+    .world {
+      width: 800px;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #ffffff;
+    }
+    .world div {
+      width: 10px;
+      height: 10px;
+    }
+    .world .live {
+      background-color: #222222;
+    }
+  </style>
+  <div class="world"></div>
+  <script src="main.js"></script>
+</body>
+</html>
